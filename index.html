@@ -1,80 +1,105 @@
 <!DOCTYPE html>
+<html>
 <head>
-  <title>
-    Something
-  </title>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-  </style>
+  <meta charset="utf-8">
+  <title>Women in Science</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <ul class="nav navbar-nav has-links-centered">
+        <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+        <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+        <li><a href="#"><i class="fa fa-camera" aria-hidden="true"></i> Photos</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <header>
-    <img src="/assets/jeff.png">
-    <h1>Jeff's Blog</h1>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Best Poems</a></li>
-      <li><a href="#">Worst Poems</a></li>
-    </ul>
+    <div class="container text-center text-light">
+      <h1>Women in Science</h1>
+      <p>by Joanna Szymczak</p>
+      <p>Enida</p>
+      <p>Kasia</p>
+    </div>
   </header>
-  <article>
-    <h2>VHS umami pop-up trust fund</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Sartorial synth Echo Park, roof party</h2>
-    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Forage food truck keytar master cleanse</h2>
-    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-    <button>Like</button>
-  </article>
-  <script>
-    $("button").on("click", function() {
-      alert("Clicked!");
-    });
-  </script>
+
+  <main>
+    <div class="container text-light text-center">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Articles</h2>
+        </div>
+        <div class="col-md-6">
+          <article>
+            <h3>Marie Curie-Sklodowska</h3>
+            <img src="maria.jpg" alt="Maria" class="image-article   img-thumbnail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit autem maxime tempore ea. Corrupti, suscipit pariatur magni. Asperiores, dolore officia qui deserunt tempora laborum dicta ipsam vel esse quam quibusdam.</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article>
+            <h3>Kasia Marek</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sunt minus sequi est dolor possimus exercitationem aspernatur amet. Ex numquam, mollitia voluptates excepturi. Cupiditate exercitationem, alias quibusdam eum quaerat est!</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="about-us">
+    <div class="container text-center text-light">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>About us</h2>
+        </div>
+        <div class="col-md-4">
+          <img src="ja.jpg" alt="Joanna" class="image-profile img-thumbnail">
+          <h3>Joanna</h3>
+          <p>Research assistant at MDX in cognitive neuropsychology.</p>
+          <a target="_blank" href="https://www.linkedin.com/in/joanna-szymczak-9b0578117/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a target="_blank" href="https://www.instagram.com/asiaszymczak/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+        <div class="col-md-4">
+          <img src="enida.jpg" alt="Enida" class="image-profile img-thumbnail">
+          <h3>Enida</h3>
+          <p>Research Assistant at MDX</p>
+          <a target="_blank" href="https://www.linkedin.com/in/csiszer-enida-luiza-341896115/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a target="_blank" href="https://www.instagram.com/csiszerenida/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+        <div class="col-md-4">
+          <img src="kasia.jpg" alt="Kasia" class="image-profile img-thumbnail">
+          <h3>Kasia</h3>
+          <p>Honorary Assistant Psychologist at NHS</p>
+          <a target="_blank" href="https://www.linkedin.com/in/katarzynamarek1305/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a target="_blank" href="https://www.instagram.com/terazkasia/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container text-light">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Contact us</h2>
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+          <form action="">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Surname">
+            <input type="text" placeholder="Email address">
+            <input type="text" placeholder="Message">
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+</html>
