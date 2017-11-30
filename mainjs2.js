@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  $("#button").click(function(event) {
-    $("#button").css("color","red");
+  $("#send").click(function(event) {
+    $("#send").css("background","red");
   });
 })
