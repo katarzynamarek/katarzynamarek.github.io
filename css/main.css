@@ -18,13 +18,14 @@ body {
   justify-content: space-around;
 }
 
-authors {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 0;
-  }
+.authors li {
+  list-style-type: none;
+}
 
+.authors li a {
+  color: #aaa;
+
+}
 
 h1 {
   font-family: 'Bilbo Swash Caps', cursive;
@@ -57,7 +58,9 @@ table
 border-collapse: collapse;
 border-spacing: 0px;
 margin: auto;
+margin-bottom: 50px;
 }
+
 table, th, td
 {
 padding: 10px;
