@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+#bulb {
+  font-size: 200px;
+}
+
+section, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  color: #aaa;
+
+}
+
+#bulb:hover {
+  color:white;
+}
+
+section {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #aaa;
+  margin: 20px 0;
+}
+
+footer {
+height: 100%;
+display: flex;
+justify-content: end;
+align-items: center;
+
+}
