@@ -32,6 +32,13 @@ h1 {
   font-size: 120px;
 }
 
+header {
+  /* background properties */
+      background: url(https://media.boingboing.net/wp-content/uploads/2015/10/neurons21.gif) repeat 99% center,
+               linear-gradient(to bottom, yellow, #aaa 50%, orange);
+  }
+
+
 h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid #aaa;
@@ -100,4 +107,11 @@ button {
 
 button:hover {
   background: pink;
+}
+
+footer {
+  /* background properties */
+    background-color: black;
+    background: url(https://cdn.dribbble.com/users/280033/screenshots/1539755/flask5b_o1.gif) repeat 310% center,
+             linear-gradient(to bottom, yellow, #aaa 50%, orange);
 }
