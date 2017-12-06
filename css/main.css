@@ -1,6 +1,8 @@
 body {
-  background: black;
+  background-color: black;
 }
+
+
 
 .navbar {
   border-radius: 0;
@@ -42,7 +44,7 @@ header {
 h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid #aaa;
-  margin: 70px 0;
+  margin: 40px 0;
   font-family: 'Bilbo Swash Caps', cursive;
   font-size: 50px;
 }
@@ -112,6 +114,6 @@ button:hover {
 footer {
   /* background properties */
     background-color: black;
-    background: url(https://cdn.dribbble.com/users/280033/screenshots/1539755/flask5b_o1.gif) repeat 310% center,
+    background: url(https://cdn.dribbble.com/users/280033/screenshots/1539755/flask5b_o1.gif) repeat 309% center,
              linear-gradient(to bottom, yellow, #aaa 50%, orange);
 }
